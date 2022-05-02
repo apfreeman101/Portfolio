@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(70, 90, 70);
+
+}
+
+header {
+    padding: 1px 4px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    background-color: rgb(70, 90, 70);
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    size: 40px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header nav {
+    margin: 7px 0;
+  }
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    margin: 10px 15px;
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-align: center;
+  }
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+    background-color: black;
+    color: white; 
+    margin-bottom: 100px; 
+    background-image: url(../images/backgroun\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: 10%;
+    padding: 50px 100px;
+    width: 100%;
+}
+
+.intro-text {
+    width: 60%;
+    text-align: center;
+    margin: 2.5%;
+    font-size: 25px;
+    line-height: 5.5;
+}
+
+.intro-pic {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.about-me h2 {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.about-me {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.about-text {
+    width: 60%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 2;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.projects-h2 {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    padding-top: 150px;
+}
+
+.link ul {
+    width: 70%;
+    padding: 10px 10px;
+    overflow: auto;
+    align-items: center;
+    margin: auto;
+}
+
